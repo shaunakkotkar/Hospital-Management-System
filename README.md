@@ -6,6 +6,16 @@ Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watc
 
 Live Demo : [Hospital Management System - 000webhost by Kishan](https://kishan0725.000webhostapp.com)
 
+#For database compulsory changes in following files : 
+#admin-panel.php
+#admin-panel1.php
+#func.php
+#func1.php
+#func2.php
+#func3.php
+#newfunc.php
+#also in 'include' file there is config.php add entries in it.
+
 ## Need to work on:
 
 1. Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
