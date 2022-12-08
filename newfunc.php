@@ -1,6 +1,6 @@
 <?php
 // session_start();
-$con=mysqli_connect("localhost","root","","myhmsdb");
+$con=mysqli_connect("database-1.c0y0nzv8ci59.ap-south-1.rds.amazonaws.com","admin","Shaunakk123","myhmsdb");
 // if(isset($_POST['submit'])){
 //  $username=$_POST['username'];
 //  $password=$_POST['password'];
