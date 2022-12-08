@@ -2,8 +2,12 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/Hospital-Management-System
+    destination: /var/www/html
 hooks:
+  BeforeInstall:
+    - location: scripts/status.sh
+      timeout: 300
+      runas: root
   AfterInstall:
     - location: scripts/restart.sh 
       timeout: 300
