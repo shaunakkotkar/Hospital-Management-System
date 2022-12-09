@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo systemctl apache2 status  
+service apache2 restart 
