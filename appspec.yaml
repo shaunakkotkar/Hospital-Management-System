@@ -4,7 +4,11 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
+  BeforeInstall:
+    - location: scripts/status.sh
+      timeout: 300
+      runas: ubuntu 
   AfterInstall:
     - location: scripts/restart.sh 
       timeout: 300
-      runas: root
+      runas: ubuntu
